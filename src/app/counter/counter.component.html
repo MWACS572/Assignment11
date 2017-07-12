@@ -1,0 +1,14 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to Counter Page!!
+  </h1>
+
+<br>
+  <p>Counter Component <button (click)=decrement() value="-">-</button>{{counterValue}}<button  (click)=increment()  value="+">+</button></p>
+  <br>
+  <input [value]=counterSetter($event.target.value) (input)="counterValue=$event.target.value">
+
+
+</div>
+
+
